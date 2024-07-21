@@ -1,0 +1,4 @@
+from transformers import launch_gradio_demo
+from video_stabilizer import VideoStabilizationTool
+
+launch_gradio_demo(VideoStabilizationTool)
